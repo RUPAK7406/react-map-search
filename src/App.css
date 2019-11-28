@@ -1,0 +1,28 @@
+.app{
+  display: flex;
+
+}
+.main{
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.map{
+  flex-grow: 1;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+}
+.stadiums{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.search{
+  padding: 10px;
+}
+.search input{
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+}
